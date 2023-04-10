@@ -11,12 +11,23 @@ public:
 	}
 };
 
-class Matakuliah;
+class Matakuliah {
 private:
 	int sks;
 	string kode;
 	string namaMk;
 public:
+	void inputMK() {
+		
+		cout << "/nMasukan Jumlah SKS = ";
+		cin >> sks;
+		cout << "/nMasukan Kode MK =";
+		cin >> 	kode;
+		cout << "/nMasukan Nama MK= ";
+		cin >>	namaMk;
+	}
+
+	
+};
 
 
-int main()
