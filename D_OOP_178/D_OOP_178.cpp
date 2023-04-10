@@ -29,9 +29,22 @@ public:
 
 	void tampilMK() {
 		cout << "\nJumlah SKS= " << sks;
-		cout << "\nMasukan Kode MK =" << kode
-		cout << "\nMasukan Nama MK= " << namaMk
+		cout << "\nMasukan Kode MK =" << kode;
+		cout << "\nMasukan Nama MK= " << namaMk << endl;
 
 	}
 };
 
+int main() {
+	Mahasiswa mhs;
+	Matakuliah mk;
+
+	cout << "\nMasukan NIM";
+	cin >> mhs.nim;
+	cout << "\nMasukan Nama";
+	cin >> mhs.nama;
+
+	mhs.tampil();
+	mk.inputMK();
+	mk.tampilMK();
+}
