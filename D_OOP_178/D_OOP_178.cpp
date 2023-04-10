@@ -10,4 +10,8 @@ public:
 		cout << "/Nama= " << nama;
 	}
 };
+
+class Matakuliah;
+
+
 int main()
