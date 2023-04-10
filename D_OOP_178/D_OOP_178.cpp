@@ -7,7 +7,7 @@ public:
 	string nama;
 	void tampil() {
 		cout << "NIM= " << nim;
-		cout << "/Nama= " << nama;
+		cout << "\nNama= " << nama;
 	}
 };
 
@@ -19,15 +19,19 @@ private:
 public:
 	void inputMK() {
 		
-		cout << "/nMasukan Jumlah SKS = ";
+		cout << "\nMasukan Jumlah SKS = ";
 		cin >> sks;
-		cout << "/nMasukan Kode MK =";
+		cout << "\nMasukan Kode MK =";
 		cin >> 	kode;
-		cout << "/nMasukan Nama MK= ";
+		cout << "\nMasukan Nama MK= ";
 		cin >>	namaMk;
 	}
 
-	
-};
+	void tampilMK() {
+		cout << "\nJumlah SKS= " << sks;
+		cout << "\nMasukan Kode MK =" << kode
+		cout << "\nMasukan Nama MK= " << namaMk
 
+	}
+};
 
